@@ -1,0 +1,29 @@
+{
+  "name": "foura",
+  "version": "1.0.0",
+  "description": "4A0B是一个猜数字游戏，不过难度不大。",
+  "bin": {
+    "AAAA": "bin/out.js",
+    "aaaa": "bin/out.js",
+    "foura": "bin/out.js",
+    "fourA": "bin/out.js"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
+  "keywords": [
+    "4A0B",
+    "game",
+    "terminal game"
+  ],
+  "author": "xianyue0224",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.16.9"
+  },
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "prompts": "^2.4.2"
+  }
+}
