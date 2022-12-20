@@ -153,6 +153,8 @@ function changeOneNumber() {
     arr[randomIdx] = newNumber
 
     state.answer = arr.join("")
+
+    console.log(chalk.bgYellow.bold.italic("注意！！！答案中有一个数字已经改变，你还有5次机会！"))
     // console.log("🚀 ~ changeOneNumber ~ state.answer", state.answer)
 }
 

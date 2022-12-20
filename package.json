@@ -1,6 +1,6 @@
 {
   "name": "foura",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "4A0B是一个猜数字游戏，不过难度不大。",
   "bin": {
     "AAAA": "bin/out.js",
@@ -8,6 +8,9 @@
     "foura": "bin/out.js",
     "fourA": "bin/out.js"
   },
+  "files": [
+    "bin"
+  ],
   "scripts": {
     "build": "node ./scripts/build.js"
   },
